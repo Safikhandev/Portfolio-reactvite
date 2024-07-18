@@ -17,7 +17,7 @@ function Herosection() {
             Hi, I'm Sufyan
           </h1>
           <p className="sm:text-2xl text-white">I'm a Frontend Developer</p>
-          <button className="py-3 px-6 bg-[#01b6] mb-10 text-white mt-5 rounded">
+          <button className="py-3 px-6 bg-[#01b6] sm:py-2 sm:px-4 mb-10 text-white mt-5 rounded">
             View Projects
           </button>
         </div>
