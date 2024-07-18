@@ -1,5 +1,6 @@
 {
   "name": "project-1",
+  "homepage": "/Portfolio-reactvite",
   "private": true,
   "version": "0.0.0",
   "type": "module",

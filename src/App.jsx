@@ -10,13 +10,13 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio-reactvite">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
       <Footer />
