@@ -3,17 +3,17 @@ import React from "react";
 function Homesectionfour() {
   const arr = [
     {
-      img: "./public/images/image1.jpg",
+      img: "./images/image1.jpg",
       alt: "image1",
       des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, nemo.",
     },
     {
-      img: "./public/images/image1.jpg",
+      img: "./images/image1.jpg",
       alt: "image1",
       des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, nemo.",
     },
     {
-      img: "./public/images/image1.jpg",
+      img: "./images/image1.jpg",
       alt: "image1",
       des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, nemo.",
     },
