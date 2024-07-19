@@ -6,7 +6,7 @@ function Herosection() {
   return (
     <div
       id="hero"
-      className="w-full h-[85vh] bg-center mb-10 bg-cover bg-no-repeat"
+      className="w-full h-[85vh] bg-center mt-16 mb-10 bg-cover bg-no-repeat"
       style={{
         backgroundImage: bgImg,
       }}
@@ -17,7 +17,7 @@ function Herosection() {
             Hi, I'm Sufyan
           </h1>
           <p className="sm:text-2xl text-white">I'm a Frontend Developer</p>
-          <button className="py-3 px-6 bg-[#01b6] sm:py-2 sm:px-4 mb-10 text-white mt-5 rounded">
+          <button className="py-2 px-4 sm:py-3 sm:px-6 bg-[#01b6] my-5  sm:mb-10 text-white mt-3 sm:mt-5 rounded">
             View Projects
           </button>
         </div>
