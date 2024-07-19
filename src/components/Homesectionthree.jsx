@@ -28,7 +28,7 @@ function Homesectionthree() {
     <>
       <div className="w-full flex flex-cols-4 flex-wrap my-20 justify-center">
         {arr.map((item) => (
-          <div className="mx-5 md:w-[20%]  flex flex-col items-center rounded shadow border px-10 py-3">
+          <div className="mx-5 md:w-[20%] my-5  flex flex-col items-center rounded shadow border px-10 py-3">
             {item.icon}
             <h3 className="md:text-2xl py-2 font-bold">{item.name}</h3>
             <p className="text-center py-2">{item.desc}</p>
