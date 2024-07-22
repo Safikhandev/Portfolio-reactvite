@@ -3,7 +3,7 @@ import React from "react";
 function Homesectiontwo() {
   return (
     <>
-      <div class="max-w-[1200px]  mb-10 md:grid grid-cols-3 md:grid-cols-3 justify-between sm:mx-auto ">
+      <div className="max-w-[1200px]  mb-10 md:grid grid-cols-3 md:grid-cols-3 justify-between sm:mx-auto ">
         <div className="text-left  px-5 col-span-2  md:w-[85%] flex flex-col justify-center">
           <h1 className="text-3xl mb-2">Hi, I'm Sufyan</h1>
           <p>

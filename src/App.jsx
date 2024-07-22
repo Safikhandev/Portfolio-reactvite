@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 function App() {
   return (
-    <BrowserRouter basename="/Portfolio-reactvite">
+    <BrowserRouter basename="/Portfolio-reactvite/">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -3,7 +3,7 @@ import React from "react";
 function Homesectionfive() {
   return (
     <>
-      <div class="max-w-[1200px]  mb-10 md:grid grid-cols-2 md:grid-cols-2  justify-between sm:mx-auto ">
+      <div className="max-w-[1200px]  mb-10 md:grid grid-cols-2 md:grid-cols-2  justify-between sm:mx-auto ">
         <div className="w-[100%] col-span-1 px-5">
           <img
             className="rounded-lg mx-auto h-[300px] w-[300px] sm:h-[400px] sm:w-[400px] my-5 "
@@ -21,7 +21,7 @@ function Homesectionfive() {
             pariatur rem error et. architecto, modi suscipit ipsum, ullam,
             explicabo odit mollitia quos culpa pariatur rem error et.
           </p>
-          <button className="md:w-[30%] w-[40%] xs:w-[50%] py-2 px-4 bg-[#01b6] my-2  sm:mb-10 text-white mt-3 md:mt-3 rounded">
+          <button Name="md:w-[30%] w-[40%] xs:w-[50%] py-2 px-4 bg-[#01b6] my-2  sm:mb-10 text-white mt-3 md:mt-3 rounded">
             View Projects
           </button>
         </div>
