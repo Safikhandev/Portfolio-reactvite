@@ -10,7 +10,7 @@ function Header() {
   return (
     <>
       {/* ///////////////////////////////////////////////////////////// /// navbar start */}
-      <header className=" p-4   bg-[#00df9a] shadow fixed top-0 w-full">
+      <header className="z-50 p-4   bg-[#00df9a] shadow fixed top-0 w-full">
         <nav className="max-w-[1220px]  items-center flex justify-between mx-auto">
           <div className="text-4xl font-bold text-white">
             <Link to={"/"}>Logo</Link>
