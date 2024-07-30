@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 function ContactSectionTwo() {
+  const [username, setUserName] = useState("");
+  console.log(username);
+
   return (
     <div className="bg-[#add8e6] py-20">
       <div className="border-2 py-10 px-10 text-center  w-1/2 mx-auto my-10 bg-[#add8e6] shadow-indigo-500/40 shadow-lg">
@@ -15,6 +18,7 @@ function ContactSectionTwo() {
               name="firstName"
               className="border-2 py-2 px-5 "
               placeholder="First Name"
+              onChange={(e) => setUserName(e.target.value)}
             />
           </div>
           <div className="text-left grid my-2">
@@ -62,7 +66,7 @@ function ContactSectionTwo() {
             />
             <button
               className="py-2  mt-10 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75"
-              // onClick={login}
+              onClick={() => setValue(value)}
               type="submit"
             >
               Login
